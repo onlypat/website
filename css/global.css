@@ -1,0 +1,255 @@
+ html {
+        font-size: 16px;
+      }
+       /*super cool media queries for logo */
+      @media only screen and (min-width: 765px) { 
+        .rofl { display: block;
+        margin-top: 1em;
+        height: 3em;
+        padding-left: 1.4em;
+        margin-bottom: 1em;
+        }
+        .lol { display: none; }
+        }
+
+        @media only screen and (min-width: 480px) and (max-width: 767px) { 
+        .rofl{ display: none; }
+        .lol { display: block;
+        margin-top: 1em;
+        height: 3em;
+        padding-left: 2.8em;
+        margin-bottom: 1em;
+  
+        }
+      }
+
+      @media only screen and (max-width: 479px) { 
+      .rofl { display: none; }
+      .lol { display: block;
+              margin-top: 1em;
+              height: 2.1em;
+              padding-left: .6em;
+              margin-bottom: 1em;
+              } 
+      }
+      
+
+
+
+
+      
+      
+      
+      .card-block {
+        
+        padding: 1rem;
+      }
+      .card {
+        margin-bottom: 2em;
+        }
+       .card img{
+        width: 100%;
+      }
+        
+      
+      
+      .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #006ba6;
+    color: #FFf;
+      }
+     
+      
+      
+      .logobox {
+        margin-top: 1em;
+        padding-left: 1.3em;
+      }
+      
+      }
+      .headlink {
+        padding-left: 50em;
+        margin-top: -1.5em;
+      }
+       .headlink a{
+        color:darkgrey;
+      }
+      
+      .navbar {margin-bottom:-0.1em;}
+     
+      
+      /*This keeps the navbar from stacking awkwardly */
+      @media (max-width: 1195px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+      .phonenumber {
+        text-decoration: none;
+        color: white;
+      }
+      .phonenumber:hover {
+        color: white;
+      }
+      p {
+        font-size: 16px;
+      }
+     
+      
+    
+      .region {
+        background-color: #006ba6;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+       
+        
+        
+      }
+
+        .map-subhead {
+        background-color: #006ba6;
+        color: white;
+        text-align: center;
+        padding: 0rem;
+        
+      }
+      
+.map {
+  padding: 0;
+  
+}
+.map-large {
+  width:100%;
+  padding: 0;
+  
+}
+/*footer */
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 45px;
+	margin-top: rem;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+.cal {
+  background-color: blue;
+  color: white;
+  height: 18rem;
+  line-height:1.4em;
+  background: #3E4EB8;
+  display: flex;
+}
+
+.cal a {
+  color: white;
+  padding-left: .2rem;
+}
+.big-icon {
+  font-size: 15rem;
+  align-content: center;
+  text-align: center;
+  padding-left: 2rem;
+}
+.all {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+       
+.responsive {
+  width:100%;
+  margin-top: 1rem;
+}
+
+.outside {
+  margin-top {5rem;}
+}
+.lastregion {
+  margin-bottom: 2rem;
+}

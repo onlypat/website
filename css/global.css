@@ -117,6 +117,22 @@
       .phonenumber {
         text-decoration: none;
         color: white;
+        background-color: #003B71;}
+        
+        .email {
+          background-color: #4A7628;
+        }
+        
+
+
+
+        
+.phonenumber:hover {color: white; opacity: .9;}
+.email:hover {color: white; opacity: .9;}
+
+        
+        
+        
       }
       .phonenumber:hover {
         color: white;
@@ -307,10 +323,34 @@
 
 h1 {font-family: 'Montserrat', sans-serif;
   font-weight: 700; 
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+  color: #006BA6;
+  
 }
 
 
   .prelogo {height: 2rem;
             background-color: }
   
+p {color:#595959;}
+
+.wa-card {background-color: #57A635;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700; 
+          color: #fff;
+          }
+
+.doc-card {background-color: #E5661F;
+           font-family: 'Montserrat', sans-serif;
+          font-weight: 700; 
+          color: #fff;
+         }
+
+.mid-card {background-color:#006BA6;
+           font-family: 'Montserrat', sans-serif;
+          font-weight: 700; 
+          color: #fff;
+         }
+
+
+

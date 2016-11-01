@@ -156,32 +156,32 @@
 }
 /*footer */
 .footer-basic-centered{
-	background-color: #292c2f;
+	background-color: #585858;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
-	font: normal 18px sans-serif;
+	
 
 	padding: 45px;
 	margin-top: rem;
 }
 
 .footer-basic-centered .footer-company-motto{
-	color:  #8d9093;
+	color:  white;
 	font-size: 24px;
 	margin: 0;
 }
 
 .footer-basic-centered .footer-company-name{
-	color:  #8f9296;
+	color:  #ccc;
 	font-size: 14px;
 	margin: 0;
 }
 
 .footer-basic-centered .footer-links{
 	list-style: none;
-	font-weight: bold;
+	
 	color:  #ffffff;
 	padding: 35px 0 23px;
 	margin: 0;
@@ -253,3 +253,64 @@
 .lastregion {
   margin-bottom: 2rem;
 }
+.recruiter {
+  max-width:15rem; 
+
+ 
+}
+/*super cool media queries for logo */
+      @media only screen and (min-width: 765px) { 
+        .recruiter {
+       
+        }
+      
+        }
+
+        @media only screen and (min-width: 480px) and (max-width: 767px) { 
+        .recruiter{ margin-left: 8rem; }
+        
+  
+        }
+      }
+
+      @media only screen and (max-width: 479px) { 
+      .recruiter { margin-left: 10rem; }
+     
+      }
+      
+
+
+/*super cool media queries for logo */
+      @media only screen and (min-width: 765px) { 
+        .j  {
+           margin-left: 27rem;
+          
+         
+       
+        }
+      
+        }
+
+        @media only screen and (min-width: 480px) and (max-width: 767px) { 
+        .j{  }
+        
+  
+        }
+      }
+
+      @media only screen and (max-width: 479px) { 
+      .j {  }
+     
+      }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+h1 {font-family: 'Montserrat', sans-serif;
+  font-weight: 700; 
+  font-size: 2.5rem;
+}
+
+
+  .prelogo {height: 2rem;
+            background-color: }
+  

@@ -117,10 +117,18 @@
       .phonenumber {
         text-decoration: none;
         color: white;
-        background-color: #003B71;}
+        background-color: #006BA6;
+        font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+font-size: 1.5rem}
         
         .email {
           background-color: #4A7628;
+           text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+font-size: 1.5rem
         }
         
 
@@ -171,68 +179,120 @@
   
 }
 /*footer */
-.footer-basic-centered{
-	background-color: #585858;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
+.full {
+    width: 100%;    
+}
+.gap {
+	height: 30px;
 	width: 100%;
-	text-align: center;
-	
-
-	padding: 45px;
-	margin-top: rem;
+	clear: both;
+	display: block;
 }
-
-.footer-basic-centered .footer-company-motto{
-	color:  white;
-	font-size: 24px;
+.footer {
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+    margin-top: 2rem;
+}
+.footer p {
 	margin: 0;
 }
-
-.footer-basic-centered .footer-company-name{
-	color:  #ccc;
-	font-size: 14px;
-	margin: 0;
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 
-.footer-basic-centered .footer-links{
-	list-style: none;
-	
-	color:  #ffffff;
-	padding: 35px 0 23px;
-	margin: 0;
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
 }
 
-.footer-basic-centered .footer-links a{
-	display:inline-block;
-	text-decoration: none;
-	color: inherit;
+
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 600px) {
 
-	.footer-basic-centered{
-		padding: 35px;
-	}
 
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
 
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
 
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
 
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }
 .cal {
   background-color: blue;
@@ -320,6 +380,7 @@
       }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
 h1 {font-family: 'Montserrat', sans-serif;
   font-weight: 700; 
@@ -334,23 +395,6 @@ h1 {font-family: 'Montserrat', sans-serif;
   
 p {color:#595959;}
 
-.wa-card {background-color: #57A635;
-          font-family: 'Montserrat', sans-serif;
-          font-weight: 700; 
-          color: #fff;
-          }
-
-.doc-card {background-color: #E5661F;
-           font-family: 'Montserrat', sans-serif;
-          font-weight: 700; 
-          color: #fff;
-         }
-
-.mid-card {background-color:#006BA6;
-           font-family: 'Montserrat', sans-serif;
-          font-weight: 700; 
-          color: #fff;
-         }
-
-
+.homecard:hover {opacity: .9;}
+         
 

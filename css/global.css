@@ -356,28 +356,7 @@ font-size: 1.5rem
       
 
 
-/*super cool media queries for logo */
-      @media only screen and (min-width: 765px) { 
-        .j  {
-           margin-left: 27rem;
-          
-         
-       
-        }
-      
-        }
 
-        @media only screen and (min-width: 480px) and (max-width: 767px) { 
-        .j{  }
-        
-  
-        }
-      }
-
-      @media only screen and (max-width: 479px) { 
-      .j {  }
-     
-      }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
@@ -396,5 +375,24 @@ h1 {font-family: 'Montserrat', sans-serif;
 p {color:#595959;}
 
 .homecard:hover {opacity: .9;}
-         
 
+.all-locations {
+  background-color: #006ba6;
+  margin-top: 2rem;
+}
+. all-locations:hover {
+  opacity: 5;
+}
+.east {
+  background-color: #57A635;
+}
+.north {
+  background-color: #E5661F;
+}
+.south {
+  background-color:  #00A19B;
+}
+
+.before-buttons {
+  margin-top: .5rem;
+}
